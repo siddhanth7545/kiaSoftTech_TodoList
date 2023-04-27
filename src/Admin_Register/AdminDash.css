@@ -1,0 +1,28 @@
+#Dashboard{
+    flex-basis: 70%;
+
+    height: 10vh;
+    align-items: center;
+    padding-top: 20px;
+
+}
+#Dashboard>article>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+   justify-content: space-around;
+    
+}
+#Dashboard>article>ul>li{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+#SideandMain{
+    display: flex;
+}
+#sidebar{
+    border: 1px solid;
+}

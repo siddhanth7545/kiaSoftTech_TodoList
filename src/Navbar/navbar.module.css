@@ -1,0 +1,35 @@
+#navbar{
+    width: 100vw;
+    height: 15vh;
+  
+    
+}
+#navbar>article{
+    width: 90vw;
+    display: flex;
+    height: inherit;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#menulist{
+    flex-basis: 70%;
+
+    height: 10vh;
+    align-items: center;
+    padding-top: 20px;
+
+}
+#menulist>article>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#menulist>article>ul>li{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+    justify-content: space-between;
+}
